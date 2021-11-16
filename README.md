@@ -14,7 +14,7 @@ Paper link: http://arxiv.org/abs/2111.07593
 
 Please refer to **main.py** for the meaning of each argument.
 
-The code is written on the basis of the ECCV 2020 paper *Temporal Aggregate Representations for Long-Range Video Understanding*, which is one of the backbones we used in our paper. Please refer to this repository https://github.com/dipika-singhania/multi-scale-action-banks for the original code.
+The code is written on the basis of the ECCV 2020 paper *Temporal Aggregate Representations for Long-Range Video Understanding*, which is one of the backbones we used in our paper. Please refer to this repository https://github.com/dipika-singhania/multi-scale-action-banks for the original code. The default arguments in **main.py** follow this paper.
 
 Please contact the authors of the above ECCV paper if you need the original data.
 If you want to use your own data, please format it as the original data, or edit **data_preprocessing.py** and **data_loader.py**.
