@@ -36,7 +36,7 @@ parser.add_argument('--dropout_CB', type=float, default=0.3, help='dropout rate 
 parser.add_argument('--dropout_TAB', type=float, default=0.3, help='dropout rate of the dropout layer in TAB')
 parser.add_argument('--hidden_dim_LSTM', type=int, default=512, help='hidden layer of LSTM (decoder of dense prediction)')
 parser.add_argument('--max_len', type=int, default=25, help='maximum times of LSTM recurrence (should be long enough that no video has more clips to predict than this number, breakfast is 24, salad is 25.)')
-parser.add_argument('--light', type=bool, default=True, help='whether to use light version model')
+parser.add_argument('--light', type=bool, default=True, help='whether to use light version model (refer to block.py for details)')
 
 #self correction module
 parser.add_argument('--self_correction_method', type=str, default='auto', help='which method to use in self correction module', choices=['no', 'linear', 'auto'])
