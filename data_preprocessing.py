@@ -37,7 +37,6 @@ def get_label_length_seq(content):
 
 class DataClass:
     def __init__(self, args, path, mode='full', half=False):
-        '''path由args中的数据集决定(dataset/features/)'''
         self.path = path
         self.GT_folder = os.path.join(self.path, 'groundTruth/')
         self.mapping = os.path.join(self.path, 'mapping.txt')
