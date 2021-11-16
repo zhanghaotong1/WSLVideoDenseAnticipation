@@ -48,8 +48,8 @@ parser.add_argument('--batch', type=int, default=2, help='batch size (salad is 2
 
 args = parser.parse_args()
 
-datapath = '/home/haotong/iccv21/' + args.dataset + '/features/'
-modelpath = '/home/haotong/iccv21/' + args.dataset + args.model
+datapath = args.dataset + '/features/' #change to your datapath
+modelpath = args.dataset + args.model  #change to your modelpath (path to save trained models)
 device = torch.device('cuda:0' if torch.cuda.is_available() else "cpu")
 
 if args.dataset == 'breakfast':
