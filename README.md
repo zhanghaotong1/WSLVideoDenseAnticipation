@@ -2,7 +2,7 @@
 
 This is a repository of our model for weakly-supervised video dense anticipation. 
 
-Please refer to our paper **Weakly-Supervised Dense ActionAnticipation**, published in *The British Machine Vision Conference (BMVC), 2021*. 
+Please refer to our paper **Weakly-Supervised Dense Action Anticipation**, published in *The British Machine Vision Conference (BMVC), 2021*. 
 Paper link: http://arxiv.org/abs/2111.07593
 
 
